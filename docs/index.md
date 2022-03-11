@@ -20,6 +20,7 @@ To best understand what a WDC is, including how to build one, we recommend that 
 
 1. Make sure you have the following dependencies installed:
     * [node version 16 and npm version 7 and above](https://nodejs.org/en/download/)
+    * Python 2.5 or higher
 
 
 1. Open your terminal and type the following command to install the TACO Toolkit:
@@ -43,7 +44,9 @@ To best understand what a WDC is, including how to build one, we recommend that 
    <!--  Troubleshooting: Python not needed until you package the connector. Java is not required until you sign the connector.   -->
    <!-- This is a working sample connector vs. the starter connector we will explain in detail later. -->
 
-1. Navigate to the root directory of the connector and enter the following command to create the connector:
+1. Create a parent directory for your connectors and navigate to that directory.
+   
+1. Enter the following command to create the connector:
 
    ```
    taco create myConnector --earthquake-data
@@ -51,12 +54,12 @@ To best understand what a WDC is, including how to build one, we recommend that 
 
    This creates a folder with the earthquake data boilerplate code, which is included with the toolkit.
 
-1. Change directories to the myConnector directory.
+4. Change directories to the myConnector directory.
    ```
    cd myConnector
    ```
    
-1. Build the connector by entering the following command:
+5. Build the connector by entering the following command:
 
    ```
    taco build
@@ -66,13 +69,13 @@ To best understand what a WDC is, including how to build one, we recommend that 
    <!--   Scot: link terms to gloss or defined elsewhere: handlers, frontend, backend  
    This has created an unpackaged connector. -->
    
-1. Create the Taco file
+6. Create the Taco file
    ```
    taco pack
    ```
    This creates the .taco file
 
-1. Type the following command to run the connector:
+7. Type the following command to run the connector:
 
    ```
    taco run --desktop
@@ -80,7 +83,7 @@ To best understand what a WDC is, including how to build one, we recommend that 
    This starts Tableau Desktop with the appropriate command line parameters pointing it to your newly created connector. 
   
    
-1. Launch the connector in Tableau Desktop.
+8. Launch the connector in Tableau Desktop.
    You will see a link to your connector in Tableau's list of connectors, earthquake-data by Salesforce. 
    Click on the link to see your dialog.
    EPS loads your default system browser to show the connector UI. This is considered the interactive phase/mode(?).
@@ -89,7 +92,7 @@ To best understand what a WDC is, including how to build one, we recommend that 
    
    <!--  Scot: get correct term: mode/phase   -->
 
-1. Click the **Get Earthquake Data** button.
+9.  Click the **Get Earthquake Data** button.
    Clicking this button closes the browser window. 
 <!--     -->
 <!--  This piece will be important when customizing their own connector: transitions to the extract mode/phase, launching the extractor process that is isolated to this single instance of your connector. The fetcher and parser are executed in this isolated process that runs in a sandbox. -->
