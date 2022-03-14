@@ -32,7 +32,7 @@ To best understand what a WDC is, including how to build one, we recommend that 
     * Taco CLI
     * WDC boilerplate connector
     * WDC 3.0 SDK
-    * Various utitlities for building, packaging, and signing your connectors
+    * Various utilities for building, packaging, and signing your connectors
 
 1. Verify the install by typing the following:
 
