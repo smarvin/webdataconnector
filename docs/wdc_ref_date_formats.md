@@ -2,6 +2,7 @@
 title: Supported Date Formats
 layout: docs
 ---
+{% include prelim_note.md %}
 
 Web data connectors can work with Date and DateTime values that use the
 following formats:

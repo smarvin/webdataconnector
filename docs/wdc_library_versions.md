@@ -2,6 +2,7 @@
 title: WDC Versions
 layout: docs
 ---
+{% include prelim_note.md %}
 
 Every web data connector must include a reference to the Tableau WDC
 library. You can get the latest version of the WDC here:

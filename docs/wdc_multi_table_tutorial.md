@@ -2,6 +2,7 @@
 title: WDC Multiple Tables Tutorial
 layout: docs
 ---
+{% include prelim_note.md %}
 
 > This tutorial builds on the connector created in the basic [tutorial]({{ site.baseurl }}/docs/wdc_tutorial). Ensure
 > that you understand the concepts in the basic tutorial before you continue.
