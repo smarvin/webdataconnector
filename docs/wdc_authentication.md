@@ -2,6 +2,7 @@
 title: WDC Authentication
 layout: docs
 ---
+{% include prelim_note.md %}
 
 Many connectors require authentication to connect to a data source.
 For these connectors, you must handle authentication in your connector code and create a form interface to prompt users for authentication information.
