@@ -1,5 +1,5 @@
 ---
-title: What's New
+title: What's New in 3,0
 layout: docs
 ---
 {% include prelim_note.md %}
