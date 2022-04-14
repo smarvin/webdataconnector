@@ -2,6 +2,7 @@
 title: Join Filtering
 layout: docs
 ---
+{% include prelim_note.md %}
 
 When you connect to multiple tables of data with a web data connector, you can filter the data from one table based on the data from another table.
 Said another way, you can make one table dependent on the data returned from another table.

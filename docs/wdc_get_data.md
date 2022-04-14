@@ -2,6 +2,7 @@
 title: Get Data - Best Practices
 layout: docs
 ---
+{% include prelim_note.md %}
 
 In the WDC Gather Data Phase, it's a best practice to insert data into the extract you create in manageable amounts. This is often called *data chunking* or *paging* and it can help improve performance and can keep the WDC from overloading Tableau, and can provide a better experience for end-users because they can see regular progress indicators. This best practice is important when you are working with very large data sets.
 

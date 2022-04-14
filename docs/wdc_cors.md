@@ -2,6 +2,7 @@
 title: WDC Working with CORS
 layout: docs
 ---
+{% include prelim_note.md %}
 
 The JavaScript code in a web data connector typically makes requests to
 a server that's on a different domain than the one that's hosting the

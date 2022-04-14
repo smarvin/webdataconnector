@@ -2,6 +2,7 @@
 title: Debugging in the Simulator and Tableau
 layout: docs
 ---
+{% include prelim_note.md %}
 
 You can use the simulator included with the WDC SDK to develop and debug your connectors more quickly. The simulator
 is a JavaScript application that loads connectors in a similar way to Tableau Desktop. Additionally, starting with Tableau Desktop 2019.4, you can use the [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools){:target="_blank"}{:ref="noopener"} and the Chromium debugger to debug issues that appear in Tableau Desktop, but not in the simulator. A WDC is a web page that runs in a Chromium-based browser inside of Tableau Desktop.

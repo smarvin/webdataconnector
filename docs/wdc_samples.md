@@ -2,6 +2,7 @@
 title: WDC Samples
 layout: docs
 ---
+{% include prelim_note.md %}
 
 The Web Data Connector comes with sample connectors that you can use to learn about specific features of the WDC API.
 The samples are in the `Examples` folder of the `webdataconnector` repository. You can see the repository
@@ -10,7 +11,7 @@ online [here](https://github.com/tableau/webdataconnector/tree/master).
 -   **[earthquakeUSGS](https://tableau.github.io/webdataconnector/Examples/html/earthquakeUSGS.html)**
 
     This is the default connector when you open the simulator. Instructions for building it are in the [Tutorial]({{ site.baseurl }}/docs/wdc_tutorial.html). It connects to the USGS Earthquake feed and gets data about earthquakes in the last week.
-
+<!-- 
 -   **[earthquakeMultitable](https://tableau.github.io/webdataconnector/Examples/html/earthquakeMultitable.html)**
 
     This connector builds on the previous one to showcase how to get data into multiple tables from a data source.
@@ -28,7 +29,7 @@ online [here](https://github.com/tableau/webdataconnector/tree/master).
 
     This connector showcases how use the incremental refresh API to fetch data incrementally.
 
-
+-->
 
 -   **[OAuthProxyExample](https://github.com/tableau/webdataconnector/tree/master/Examples/OAuthProxyExample)**
 

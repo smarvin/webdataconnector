@@ -2,6 +2,7 @@
 title: WDC Incremental Refresh
 layout: docs
 ---
+{% include prelim_note.md %}
 
 Tableau uses web data connectors to fetch data and store that data in an extract. You can always refresh the entire
 extract. However, if you implement incremental refresh, you can also fetch only the new data for the extract, which can
