@@ -2,6 +2,8 @@
 title: Use a WDC in Tableau Desktop
 layout: docs
 ---
+{% include prelim_note.md %}
+
 To use a WDC in Tableau Desktop, complete the following steps:
 
 1. On the start page, in the **Connect** pane, click **More Servers... > Web Data Connector**.

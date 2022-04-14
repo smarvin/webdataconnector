@@ -2,6 +2,8 @@
 title: What's New
 layout: docs
 ---
+{% include prelim_note.md %}
+
 The web data connector (WDC) version 3.0 is a complete rewrite of the web data connector model used in previous versions. WDC 3.0 offers developers extended flexibility and a streamlined toolset to create connectors for web-based data that isn’t easily retrieved using conventional ODBC or JDBC drivers. With the Web Data Connector 3.0 SDK, you can build connectors to virtually any web data source faster and more easily than ever before.
 
 The WDC 3.0 framework revamps the WDC developer experience by eliminating the hosting overhead of the previous versions. This provides integrated authentication capabilities and modernizes the SDK tools, libraries, and API. These changes reduce the complexity for building a new WDC.

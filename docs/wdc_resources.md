@@ -2,6 +2,7 @@
 title: Developer Resources
 layout: docs
 ---
+{% include prelim_note.md %}
 
 New to web development? Start here:
 

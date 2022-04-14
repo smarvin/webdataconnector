@@ -2,6 +2,7 @@
 title: Frequently Asked Questions
 layout: docs
 ---
+{% include prelim_note.md %}
 
 * TOC
 {:toc}
