@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: What's New in 3,0
+=======
+title: What's New
+>>>>>>> 3f75a46e41cb9351a0e573cbc99ec640c39cbd60
 layout: docs
 ---
 {% include prelim_note.md %}
