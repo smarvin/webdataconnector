@@ -2,11 +2,13 @@
 title: Create a Connector
 layout: docs
 ---
+{% include prelim_note.md %}
+
 To create your connector, we recommend that you first create a sample connector and edit those files. It's easier to get all the files and directory structure your connector needs by just using an existing example.
 
-Use the connector you created in the [Get Started]({{ site.baseurl }}/docs/../../index) topic. Copy that sample connector directory to another directory. You're now ready to create your own connector.
+Use the connector you created in the [Get Started]({{ site.baseurl }}/docs/index) topic. Copy that sample connector directory to another directory. You're now ready to create your own connector.
 
-<! -- Start with create connector with your connector name -->
+<!-- Start with create connector with your connector name -->
 
 * TOC
 {:toc}
