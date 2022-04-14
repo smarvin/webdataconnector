@@ -89,9 +89,7 @@ To best understand what a WDC is, including how to build one, we recommend that 
    You will see a link to your connector in Tableau's list of connectors, earthquake-data by Salesforce. 
    Click on the link to see your dialog.
    EPS loads your default system browser to show the connector UI. This is considered the interactive phase/mode(?).
-   
    <!--  Include image of Tableau connectors with link.   -->
-   
    <!--  Scot: get correct term: mode/phase   -->
 
 11. Click the **Get Earthquake Data** button.
