@@ -11,7 +11,7 @@ and passes the data to Tableau.
     <b>Note:</b> This site is for version 3.x of the WDC API, which is compatible only with Tableau 2022.2 and later. Versions 1 and 2 of the WDC API, used with earlier versions of Tableau, are no longer supported.  
 </div>
 
-### Building a sample WDC connector
+## Build a sample WDC connector
 
 This section guides you through the process of setting up your development environment and building a sample WDC in the simulator.
 
@@ -97,7 +97,5 @@ To best understand what a WDC is, including how to build one, we recommend that 
 <!--     -->
 <!--  This piece will be important when customizing their own connector: transitions to the extract mode/phase, launching the extractor process that is isolated to this single instance of your connector. The fetcher and parser are executed in this isolated process that runs in a sandbox. -->
 
-
-
-*Ready to make your own connector? Jump to the [WDC Tutorial]({{ site.baseurl }}/docs/wdc_tutorial).*
-Want to learn more about the Taco Toolkit? See the reference (link here).
+## What's next?
+Ready to make your own connector? Jump to the [Create Your WDC Connector]({{ site.baseurl }}/docs/wdc_create_connector) topic.*

@@ -1,5 +1,5 @@
 ---
-title: WDC Tutorial
+title: Create Your WDC Connector
 layout: docs
 ---
 <!-- Two use cases: earthquake (from scratch) and blank.
